@@ -1,0 +1,84 @@
+.show-btn{
+  position: absolute;
+  top: 19px;
+  left: 350px;
+  color: aliceblue;
+  cursor: pointer;
+}
+.show-btn:hover{
+  color: blue;
+}
+.navbar-links{
+  cursor: pointer;
+  position: inherit;
+  right: 600px;
+}
+.navbar-links:hover{
+  color: blue;
+}
+.ticket-body {
+  display: grid;
+  width: 405px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px;
+  background-color: aliceblue;
+}
+.ticket-body:hover{
+  filter: drop-shadow(1px 1px 30px grey);
+}
+.ticket-header{
+  display: grid;
+  gap: 20px;
+  padding-top: 5px;
+  padding-left: 2px;
+  padding-bottom: 5px;
+  grid-template-columns: repeat(3,1fr);
+}
+.apply-btn{
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.eventplace{
+  color: rgb(116, 117, 118);
+}
+.eventname{
+  font-size: 40px;
+}
+.seatno{
+  display: flex;
+  gap: 20px;
+  color: gray;
+}
+#dropdown-basic{
+  position: absolute;
+  bottom: 12px;
+  right: 50px;
+  color: aliceblue;
+}
+.edit-delete-btn{
+  display: flex;
+  gap: 15px;
+  margin-left: 10px;
+  margin-top: 8px;
+}
+#delete-event{
+  background-color: aliceblue;
+  width: 500px;
+  height: 250px;
+  border: 2px solid navy;
+  border-radius: 20px;
+  position: absolute;
+  top: 200px;
+  left: 380px;
+  padding: 28px;
+}
+.register-form{
+  background-color: aliceblue;
+  width: max-content;
+  margin-left: 450px;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px rgb(65, 63, 63);
+}
